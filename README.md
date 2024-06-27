@@ -10,4 +10,5 @@ After the work in Jupyter Notebook was complete, I created 6 flask routes:
 4. The dates and temperatures for the last year in the most active station
 5. The minimum temperature, maximum temperature, and average temperature for a period after and including a provided date
 6. The minimum temperature, maximum temperature, and average temperature for a period between 2 given dates
+
 I did this work by creating functions for all of the calculations within a SQLHelper class that was is a separate python document than the flask routes. I also included functions to calculate the year before the most recent date in the data set and the name of the most active station.
